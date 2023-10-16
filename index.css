@@ -1,25 +1,50 @@
+   
 body {
     margin: 0;
     padding: 0;
-    background-image: url("https://img.freepik.com/premium-photo/green-bamboo-texture-oriental-grass-fence-bamboo-green-and-brown-decoration-elements_700081-1223.jpg");
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('https://bogatyr.club/uploads/posts/2023-03/thumbs/1679184953_bogatyr-club-p-bambuk-fon-foni-vkontakte-4.jpg');
 }
 
-.header {
-    background-color: rgb(0 0 0 / 50%);
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-.phone-number {
-    text-decoration: none;
+header {
+    background-color: #4CAF50;
     color: #fff;
-    font-size: 18px;
+    padding: 10px 0;
+    text-align: center;
 }
+
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: right;
+}
+
+.phone, .address {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+  
+  
 
 input,
 select,
