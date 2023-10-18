@@ -6,7 +6,6 @@ body{
 
 .wrapper-header{
     max-width: 100%;
-    border-radius: 7px;
     background-color: #ffff;
     padding: 5px;
 
@@ -30,7 +29,7 @@ body{
     position: absolute;
     display: flex;
     margin: 0px;
-    top: 10px;
+    top: 1px;
 }
 
 .logo {
@@ -51,16 +50,17 @@ body{
 
 .subtitle{
     position: relative;
-    top: 10px;
+    top: 6px;
     left: 35px;
     display: block;
     color: #A8BB45;
     font-family: Irish Grover;
-    font-size: 8px;
+    font-size: 9px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin: 0;
+    cursor: pointer;
 }
 
 .wrapper-phone{
@@ -69,12 +69,12 @@ body{
 }
 
 .wrapper-location{
-    display: flex;
+    display: none;
     align-items: center;
 }
 
 .phone{
-    width: 10px
+    width: 12px
 }
 
 .location{
@@ -84,7 +84,7 @@ body{
 .phone-text{
     color: #A8BB45;
     font-family: Inter;
-    font-size: 8px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -114,6 +114,29 @@ body{
 
 .menu-big{
    display: none;
+}
+
+.footer-wrapper-location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.location-footer{
+    width: 15px;
+}
+
+.location-text-footer{
+    color: #A8BB45;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+    margin-left: 5px;
 }
 
 @media(min-width: 768px) {
@@ -185,5 +208,13 @@ body{
         left: 130px;
         font-size: 30px;
         margin-bottom: 50px;
+    }
+
+    .wrapper-location{
+        display: flex;
+    }
+
+    .footer-wrapper-location{
+        display: none;
     }
 }
