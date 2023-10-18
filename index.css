@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    margin: 0 auto;
+    margin: 0 15px;
 }
 
 .wrapper-flex{
@@ -81,8 +81,70 @@ body{
     text-decoration: none;
     margin-left: 5px;
 }
-
-.menu-small{
+  
+.menu-small {
     max-width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.menu-big{
+   display: none;
+}
+
+@media(min-width: 768px) {
+
+.menu-small{
+    display: none;
+}
+
+.menu-big{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0 auto;
+}
+
+.logo{
+    width: 35px;
+}
+
+.tittle{
+    font-size: 32px;
+}
+
+.phone{
+    width: 25px
+}
+
+.location{
+    width: 25px
+}
+
+.phone-text{
+    font-size: 15px;
+}
+
+.location-text{
+    font-size: 15px;
+}
+
+}
+
+
+
+@media(min-width: 1024px) {
+    .logo{
+        width: 50px;
+    }
+    
+    .tittle{
+        font-size: 48px;
+    }
 }
