@@ -5,7 +5,7 @@ body{
 }
 
 .wrapper-header{
-
+    max-width: 100%;
     border-radius: 7px;
     background-color: #ffff;
     padding: 5px;
