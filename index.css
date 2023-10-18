@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    margin: 0 15px;
+    margin: 0 5px;
 }
 
 .wrapper-flex{
@@ -22,9 +22,15 @@ body{
     align-items: center;
 }
 
+.wrapper-name{
+    margin: 0;
+}
+
 .wrapper-logo{
+    position: absolute;
     display: flex;
     margin: 0px;
+    top: 10px;
 }
 
 .logo {
@@ -35,12 +41,26 @@ body{
 .tittle{
     color: #A8BB45;
     font-family: Irish Grover;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin: 0;
     cursor: pointer;
+}
+
+.subtitle{
+    position: relative;
+    top: 10px;
+    left: 35px;
+    display: block;
+    color: #A8BB45;
+    font-family: Irish Grover;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
 }
 
 .wrapper-phone{
@@ -120,6 +140,12 @@ body{
     font-size: 32px;
 }
 
+.subtitle{
+    top: 20px;
+    left: 130px;
+    font-size: 15px;
+}
+
 .phone{
     width: 25px
 }
@@ -141,11 +167,23 @@ body{
 
 
 @media(min-width: 1024px) {
+
+    .container{
+        margin: 0 25px;
+    }
+
     .logo{
         width: 50px;
     }
     
     .tittle{
         font-size: 48px;
+    }
+
+    .subtitle{
+        top: 50px;
+        left: 130px;
+        font-size: 30px;
+        margin-bottom: 50px;
     }
 }
